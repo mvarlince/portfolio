@@ -2,8 +2,7 @@ import {FaGithub, FaLinkedin} from "react-icons/fa"
 import {HiOutlineMail} from "react-icons/hi"
 import { BsFillPersonLinesFill} from "react-icons/bs"
 
-export default function(){
-
+export default function SocialLinks(){
     const links = [
         {id: 1,
         child:(
@@ -39,7 +38,7 @@ export default function(){
                 Resume <BsFillPersonLinesFill size={30} />
                 </>
                 ),   
-        href: '/Varlince_Meran_Resume.pdf',
+        href: 'Valince_Meran_Resume_2023.pdf',
         style: 'rounded-br-md',
         download: true
             }
@@ -47,22 +46,30 @@ export default function(){
 
     return(
         <>
-        <div className="hidden lg:flex flex-col top-[35%] left-0 fixed">
-            <ul>
-                {links.map( ({id, child, href, style, download} ) => {
-                    return  <li key={id} className={"flex justify-between items-centerw-40 h-14 px-4 ml-[-80px] hover:ml-[-10px] hover:rounded-md duration-300 bg-gray-500" +" " + style} >
-                    <a href={href} 
-                        className="flex justify-between items-center  w-full text-white"
-                        download={download}
-                        target="_blank"
-                        rel="noreferrer">
-                    {child} 
-                    </a>
-                </li>
-                } )}
-               
-            </ul>
-        </div>
+    <div className="hidden lg:flex flex-col top-[35%] left-0 fixed">
+      <ul>
+        {links.map(({ id, child, href, style, download }) => (
+          <li
+            key={id}
+            className={
+              "flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-gray-500" +
+              " " +
+              style
+            }
+          >
+            <a
+              href={href}
+              className="flex justify-between items-center w-full text-white"
+              download={download}
+              target="_blank"
+              rel="noreferrer"
+            >
+              {child}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
         </>
     )
 }

@@ -8,10 +8,15 @@ export default function About () {
                 </div>
 
                 <p className="text-xl mt-20">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam esse assumenda alias unde accusantium, deserunt laborum, exercitationem culpa quibusdam eos non inventore eum qui facilis modi aliquid at perspiciatis sequi!
-                </p>
+                I love Japanese cars 🏎️, soccer ⚽️ and music 🎶🎹.
+                </p> 
                 <br/>
-                <p className="text-xl"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi molestias labore non debitis hic exercitationem harum! Laudantium dolor iste, atque consequatur adipisci dolores labore laboriosam ratione facere nisi? Error, maxime! </p>
+                <p className="text-xl"> 
+                I have expertise in various programming languages, web technologies, and cloud computing. I excel at providing technical support and delivering high-quality solutions.
+
+                I'm excited to tackle new challenges and make a difference in the tech world. Let's connect and see what we can build together!
+
+                </p>
             </div>
         </div>
         </>
