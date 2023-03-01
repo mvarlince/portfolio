@@ -3,9 +3,9 @@ export default function Contact() {
         <>
             <div name="contact" className="w-full h-screen bg-gradient-to-b from-black to-gray-800 p-4 text-white ">
                 <div className="flex flex-col p-4 justify-center max-w-screen-lg  max-auto h-full">
-                    <div className="pb-8">
-                        <p className="text-4xl font-bold inline border-b-4 border-gray-500">Contact</p>
-                        <p className="py-6">Submit the form below to get in touch with me</p>
+                    <div className="pb-8 align-content: center">
+                        <p className="text-5xl font-bold inline border-b-4 border-gray-500">Contact</p>
+                        <p className="text-4xl py-6">Submit the form below to get in touch with me</p>
                     </div>
 
                     <div className="flex justify-center items-center">
@@ -14,16 +14,16 @@ export default function Contact() {
                                 className="flex flex-col w-full md:w-1/2">
                             <input type="text"
                                 name="name"
-                                placeholder="enter your name"
+                                placeholder="Name"
                                 className="p-2 bg-transparent border-2 rounded-md text-white
                         focus:outline-none"/>
                             <input type="text"
                                 name="email"
-                                placeholder="enter your email"
+                                placeholder="Email"
                                 className="my-4 p-2 bg-transparent border-2 rounded-md text-white
                         focus:outline-none"/>
                             <textarea name="message"
-                                placeholder="Enter your message"
+                                placeholder="Message"
                                 rows="10"
                                 className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none">
                             </textarea>
