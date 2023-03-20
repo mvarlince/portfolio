@@ -1,10 +1,10 @@
 import About from './components/About';
-import Experience from './components/Experience';
+import Skills from './components/Skills';
 import Home from './components/Home';
 import NavBar from './components/NavBar'
-import Portfolio from './components/Portfolio';
 import SocialLinks from './components/SocialLinks';
 import Contact from './components/Contact';
+import Projects from './components/Projects';
 
 function App() {
   return (
@@ -13,8 +13,8 @@ function App() {
     < Home />
     <SocialLinks />
     < About />
-    <Portfolio />
-    < Experience />
+    <Projects />
+    < Skills />
     <Contact />
     </>
   );
