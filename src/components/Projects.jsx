@@ -2,6 +2,7 @@ import valentine from '../assets/portfolio/valentine.png'
 import taskhero from '../assets/portfolio/taskhero.png'
 import affirmation from '../assets/portfolio/affirmation.png'
 import lineupwiz from '../assets/portfolio/lineupwiz.webp'
+import hex from '../assets/portfolio/hex.webp'
 
 
 export default function Projects() {
@@ -29,6 +30,12 @@ export default function Projects() {
       id: 4,
       src: taskhero,
     },
+    {
+      id:5,
+      src: hex,
+      codeLink: 'https://github.com/mvarlince/portfolio-random-hex-generator',
+      demoLink: 'https://portfolio-random-hex-generator.web.app/'
+    }
   ]
 
   return (
