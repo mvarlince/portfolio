@@ -5,10 +5,9 @@ export default function Contact() {
                 name="contact"
                 className="w-full bg-gradient-to-b from-black to-gray-800 pt-40 text-white"
                 >
-                <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full pt-[12rem] sm:pt-0">
+                <div className="flex flex-col p-4 pt-[15rem] sm:pt-0 justify-center max-w-screen-lg mx-auto h-full ">
                     {/* added media query */}
                     <div
-                    // media query here
                     className="text-left md:text-center"
                     // style={{ paddingTop: '10px' }}
                     >
