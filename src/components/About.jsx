@@ -1,8 +1,9 @@
 export default function About () {
     return(
         <>
+        {/* added padding here pt-10 sm:pt-0  */}
         <div name="about" className="w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white">
-            <div className="max-w-screen-lg  p-4 mx-auto flex flex-col justify-center w-full">
+            <div className="max-w-screen-lg p-4 pt-10 sm:pt-0 mx-auto flex flex-col justify-center w-full">
                 <div className="">
                     <p className="text-5xl font-bold inline border-b-4 border-gray-500">About</p>
                 </div>
