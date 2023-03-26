@@ -11,11 +11,12 @@ export default function About () {
                 I love Japanese cars 🏎️, soccer ⚽️ and music 🎶🎹.
                 </p> 
                 <br/>
-                <p className="text-3xl"> 
+                <p className="text-3xl tracking-wider"> 
                 I have expertise in various programming languages, web technologies, and cloud computing. I excel at providing technical support and delivering high-quality solutions.
+                </p>
                 <br/>
+                <p className="text-3xl tracking-wider">
                 I'm excited to tackle new challenges and make a difference in the tech world. Let's connect and see what we can build together!
-
                 </p>
             </div>
         </div>

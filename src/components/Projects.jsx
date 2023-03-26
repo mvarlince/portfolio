@@ -1,6 +1,6 @@
-import valentine from '../assets/portfolio/valentine.png'
-import taskhero from '../assets/portfolio/taskhero.png'
-import affirmation from '../assets/portfolio/affirmation.png'
+import valentine from '../assets/portfolio/valentine.webp'
+import taskhero from '../assets/portfolio/taskhero.webp'
+import affirmation from '../assets/portfolio/affirmation.webp'
 import lineupwiz from '../assets/portfolio/lineupwiz.webp'
 import hex from '../assets/portfolio/hex.webp'
 

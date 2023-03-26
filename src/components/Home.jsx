@@ -13,7 +13,7 @@ export default function Home () {
                     <h2 className="text-4xl sm:text-7xl font-bold text-white"> 
                         full stack software developer
                     </h2>
-                    <p className="text-gray-500 py-4 max-w-md">
+                    <p className="text-gray-500 text-3xl py-4 max-w-md">
                     Hey there!  I am a proficient software engineer with experience in writing clean and scalable code. I have a knack for problem-solving, a talent for clear communication, and a team player attitude.                      </p>
                     <div>
                         <Link to="portfolio" 
